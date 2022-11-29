@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.main-wrapper {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 12rem 1fr;
+  grid-template-rows: 6rem 1fr;
+}
+
+#sidenav {
+  background-color: aquamarine;
+  grid-row: 1 / 3;
+  padding: 0.5rem;
+  display: grid;
+  justify-content: center;
+}
+
+.sidenav-items {
+  display: grid;
+  justify-content: center;
+  align-content: flex-start;
+}
+
+.sidenav-item {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  margin-bottom: 0.7rem;
+}
+
+.sidenav-head {
+  font-size: 1.5rem;
+}
+
+#tophead {
+  background-color: aqua;
+  grid-row: 1 / 2;
+}
+
+main {
+  background-color: rgb(145, 242, 242);
+  grid-column-start: 2;
+}
