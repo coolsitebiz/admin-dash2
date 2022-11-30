@@ -31,7 +31,7 @@
 
 .sidenav-items {
   display: grid;
-  justify-content: center;
+  justify-content: flex-start;
   align-content: flex-start;
 }
 
@@ -55,7 +55,7 @@
 }
 
 .sidenav-text {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
 }
 
 .sidenav-icon {
