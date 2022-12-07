@@ -77,16 +77,23 @@
 
 #tophead-searchbar {
   display: grid;
-  grid-template-columns: 1fr 7fr;
-  justify-items: center;
-  align-items: center;
+  grid-template-columns: 1fr 10fr;
 }
 
 #search-icon {
+  justify-self: end;
+  align-self: center;
+}
+
+#searchpic {
+  transform: scale(50%);
+  padding-top: 1rem;
 }
 
 #search-input {
-  width: 90%;
+  width: 95%;
+  align-self: center;
+  justify-self: center;
 }
 
 #search-input-field {
@@ -95,7 +102,8 @@
   border: none;
   background-color: #eee;
   line-height: 1.5rem;
-  padding: 0.1rem;
+  padding: 0.2rem 0.4rem;
+  text-align: end;
 }
 
 #tophead-info {
