@@ -68,6 +68,48 @@
   grid-row: 1 / 2;
 }
 
+#tophead-container {
+  display: grid;
+  grid-template-columns: 5fr 3fr;
+  grid-template-rows: 1fr 1fr;
+  height: 100%;
+}
+
+#tophead-searchbar {
+  display: grid;
+  grid-template-columns: 1fr 7fr;
+  justify-items: center;
+  align-items: center;
+}
+
+#search-icon {
+}
+
+#search-input {
+  width: 90%;
+}
+
+#search-input-field {
+  border-radius: 15px;
+  width: 100%;
+  border: none;
+  background-color: #eee;
+  line-height: 1.5rem;
+  padding: 0.1rem;
+}
+
+#tophead-info {
+  background-color: #aaa;
+}
+
+#tophead-id {
+  background-color: #888;
+}
+
+#tophead-actions {
+  background-color: #999;
+}
+
 main {
   background-color: lightgray;
   grid-column-start: 2;
