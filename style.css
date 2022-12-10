@@ -107,7 +107,27 @@
 }
 
 #tophead-info {
-  background-color: #aaa;
+  display: grid;
+  justify-self: end;
+  grid-template-columns: 1fr 1fr 2fr;
+  padding-right: 2rem;
+  align-items: center;
+  justify-items: center;
+  gap: 0.5rem;
+}
+
+#alert {
+}
+
+#pfp-small {
+  justify-self: center;
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+#pfp-small > img {
+  width: 2.2rem;
+  height: 2.2rem;
 }
 
 #tophead-id {
