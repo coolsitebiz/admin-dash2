@@ -73,6 +73,7 @@
   grid-template-columns: 5fr 3fr;
   grid-template-rows: 1fr 1fr;
   height: 100%;
+  padding-left: 0.5rem;
 }
 
 #tophead-searchbar {
@@ -127,11 +128,29 @@
 
 #pfp-small > img {
   width: 2.2rem;
-  height: 2.2rem;
+  clip-path: circle();
 }
 
 #tophead-id {
-  background-color: #888;
+  display: grid;
+  grid-template-columns: 1.5fr 10fr;
+  align-items: center;
+}
+
+#pfp-med {
+  background-color: white;
+  justify-self: center;
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+#pfp-med > img {
+  width: 3.5rem;
+  clip-path: circle();
+}
+
+#greeting {
+  background-color: white;
 }
 
 #tophead-actions {
