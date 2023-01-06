@@ -135,6 +135,7 @@
   display: grid;
   grid-template-columns: 1.5fr 10fr;
   align-items: center;
+  gap: 0.5rem;
 }
 
 #pfp-med {
@@ -150,7 +151,17 @@
 }
 
 #greeting {
+  display: grid;
+  height: 60%;
   background-color: white;
+}
+
+#hello {
+  font-size: 0.8rem;
+}
+
+#username-med {
+  font-size: 1.2rem;
 }
 
 #tophead-actions {
