@@ -78,7 +78,7 @@
 
 #tophead-searchbar {
   display: grid;
-  grid-template-columns: 1fr 10fr;
+  grid-template-columns: 1fr 15fr;
   justify-self: start;
 }
 
@@ -94,7 +94,7 @@
 
 #search-input {
   width: 100%;
-  min-width: 15rem;
+  min-width: 16rem;
   align-self: center;
   justify-self: center;
 }
