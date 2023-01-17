@@ -143,13 +143,9 @@
   margin-left: 0.5rem;
 }
 
-#tophead-id p {
-  margin-left: 0.5rem;
-}
-
 #pfp-med {
   background-color: white;
-  justify-self: center;
+  justify-self: start;
   border-radius: 100%;
   overflow: hidden;
 }
@@ -163,6 +159,7 @@
   display: grid;
   height: 60%;
   background-color: white;
+  margin-left: 1rem;
 }
 
 #hello {
@@ -189,7 +186,6 @@
   display: grid;
   justify-content: center;
   align-content: center;
-  font-weight: 900;
 }
 
 main {
