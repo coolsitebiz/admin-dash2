@@ -5,7 +5,15 @@
 }
 
 :root {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+h1 {
+  font-size: 1.2rem;
+}
+
+h2 {
+  font-size: 1.1rem;
 }
 
 .main-wrapper {
@@ -103,7 +111,7 @@
   border-radius: 15px;
   width: 100%;
   border: none;
-  background-color: #eee;
+  background-color: rgb(204, 215, 234);
   line-height: 1.5rem;
   padding: 0.2rem 0.4rem;
   text-align: end;
@@ -191,6 +199,69 @@
 }
 
 main {
-  background-color: lightgray;
+  background-color: rgb(204, 215, 234);
   grid-column-start: 2;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  padding: 1rem;
+}
+
+#main-left {
+  height: 100%;
+}
+
+#main-left-cards {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.card {
+  min-height: 9rem;
+  width: 22rem;
+  border-radius: 5px;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 5px auto;
+  box-shadow: 3px 3px 2px gray;
+  margin-top: 1rem;
+  margin-right: 1rem;
+}
+
+.card-main {
+  display: grid;
+  background-color: white;
+  height: 100%;
+}
+
+.card-leftborder {
+  background-color: goldenrod;
+  height: 100%;
+}
+
+.cardtext {
+  margin: 1.5rem 0.8rem;
+  font-family: Arial;
+}
+
+.cardhead {
+  font-weight: bold;
+  font-size: 1rem;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.cardlinks {
+  padding-right: 1rem;
+  padding-bottom: 0.5rem;
+  justify-self: end;
+}
+
+.cardlinks img {
+  transform: scale(50%);
+}
+
+#main-right {
+  border: 1px dotted black;
+  height: 100%;
 }
