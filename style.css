@@ -275,7 +275,26 @@ main {
   border-radius: 5px;
   background-color: white;
   box-shadow: 3px 3px 2px gray;
-  height: 10rem;
-  padding: 0.5rem 0.5rem;
+  padding: 1.5rem;
   margin: 1rem 0rem 1rem 0rem;
+  font-size: 0.9rem;
+}
+
+.announcements-card h2 {
+  font-size: 0.9rem;
+  margin-bottom: 0.2rem;
+}
+
+.announcements-card ul {
+  list-style-type: none;
+}
+
+.announcements-card li {
+  border-top: 1px solid lightgray;
+  margin-bottom: 0.5rem;
+}
+
+.announcements-card ul :nth-child(1) {
+  border-top: none;
+  margin-top: 0.5rem;
 }
