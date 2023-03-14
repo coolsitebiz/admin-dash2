@@ -173,10 +173,16 @@ h2 {
 
 #hello {
   font-size: 0.8rem;
+  font-weight: bold;
+}
+
+#username-small {
+  font-weight: bold;
 }
 
 #username-med {
   font-size: 1.2rem;
+  font-weight: bold;
 }
 
 #tophead-actions {
@@ -297,4 +303,13 @@ main {
 .announcements-card ul :nth-child(1) {
   border-top: none;
   margin-top: 0.5rem;
+}
+
+.trending-card {
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 3px 3px 2px gray;
+  padding: 1.5rem;
+  margin: 1rem 0rem 1rem 0rem;
+  font-size: 0.9rem;
 }
