@@ -1,0 +1,19 @@
+{
+  "name": "admin-dash2",
+  "version": "1.0.0",
+  "description": "odin project admin dash",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coolsitebiz/admin-dash2.git"
+  },
+  "author": "BN",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coolsitebiz/admin-dash2/issues"
+  },
+  "homepage": "https://github.com/coolsitebiz/admin-dash2#readme"
+}
