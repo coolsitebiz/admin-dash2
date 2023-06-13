@@ -332,3 +332,7 @@ main {
   height: 2.5rem;
   clip-path: circle();
 }
+
+.nostyle {
+  display: none;
+}
